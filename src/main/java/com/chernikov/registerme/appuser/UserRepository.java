@@ -1,4 +1,4 @@
-package com.chernikov.security.appuser;
+package com.chernikov.registerme.appuser;
 
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;

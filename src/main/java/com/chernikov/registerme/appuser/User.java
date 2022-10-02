@@ -1,4 +1,4 @@
-package com.chernikov.security.appuser;
+package com.chernikov.registerme.appuser;
 
 import lombok.EqualsAndHashCode;
 import lombok.Getter;

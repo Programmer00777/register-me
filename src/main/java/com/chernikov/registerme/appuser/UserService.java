@@ -1,4 +1,4 @@
-package com.chernikov.security.appuser;
+package com.chernikov.registerme.appuser;
 
 import lombok.AllArgsConstructor;
 import org.springframework.security.core.userdetails.UserDetails;
