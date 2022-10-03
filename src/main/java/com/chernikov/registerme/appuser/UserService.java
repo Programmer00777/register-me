@@ -52,6 +52,10 @@ public class UserService implements UserDetailsService {
 
         // TODO: Send Email
 
-        return "it works";
+        return token;
+    }
+
+    public int enableUser(String email) {
+        return userRepository.enableUser(email);
     }
 }
