@@ -35,7 +35,7 @@ public class RegistrationService {
                         UserRole.USER_ROLE)
         );
 
-        String link = "/api/v1/registration/confirm?token=" + token;
+        String link = "http://localhost:8080/api/v1/registration/confirm?token=" + token;
         emailSender.send(request.getEmail(), buildEmail(request.getFirstName(), link));
 
         return token;
@@ -88,11 +88,9 @@ public class RegistrationService {
                 "\n" +
                 "      <div class=\"content__body py-8 border-b\">\n" +
                 "        <p>\n" +
-                "          Hey, <br><br>It looks like you just signed up for REGISTER.ME, that’s awesome! Can we ask you for email confirmation? Just click the button bellow.\n" +
+                "          Hey " + name + ", <br><br>It looks like you just signed up for REGISTER.ME, that’s awesome! Can we ask you for email confirmation? Just click the button bellow.\n" +
                 "        </p>\n" +
-                "        <form action=\"" + link + "\">\n" +
-                "          <button class=\"text-white text-sm tracking-wide bg-red rounded w-full my-8 p-4 \" type=\"submit\">CONFIRM EMAIL ADRESS</button>\n" +
-                "        </form>\n" +
+                "          <a href=\"" + link + "\"><button class=\"text-white text-sm tracking-wide bg-red rounded w-full my-8 p-4 \">CONFIRM EMAIL ADRESS</button></a>\n" +
                 "        <p class=\"text-sm\">\n" +
                 "          Keep Rockin'!<br> Your Register.me team\n" +
                 "        </p>\n" +
