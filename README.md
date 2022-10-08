@@ -1,4 +1,4 @@
-![readme-registerme](https://user-images.githubusercontent.com/55809302/194723568-25724cc2-0ec4-4e17-83ee-edc22195b602.png)
+![readme-registerme copy](https://user-images.githubusercontent.com/55809302/194726553-bb1cced7-ba58-48d1-86b0-e35b57e89c91.png)
 REGISTER.ME is a Spring Boot based Java application that handles security and accessibility aspects of a web app.
 
 **With REGISTER.ME you can:**
